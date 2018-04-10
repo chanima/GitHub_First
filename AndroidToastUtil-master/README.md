@@ -222,6 +222,3 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 ##自定义样式和时长的Toast效果图
 ![GIF.gif](https://github.com/Ericsongyl/AndroidToastUtil/blob/master/GIF.gif)
-
-##项目源码
-[https://github.com/Ericsongyl/AndroidToastUtil](https://github.com/Ericsongyl/AndroidToastUtil)
