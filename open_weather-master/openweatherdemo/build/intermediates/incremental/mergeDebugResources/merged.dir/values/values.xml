@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="special_solar_term_dates">
+        <item>19840723|19840722|13</item>
+        <item>19841221|19841222|23</item>
+        <item>20130203|20130204|2</item>
+        <item>20130723|20130722|13</item>
+        <item>20131221|20131222|23</item>
+        <item>20140305|20140306|4</item>
+        <item>20150105|20150106|0</item>
+        <item>20161206|20161207|22</item>
+        <item>20170723|20170722|13</item>
+        <item>20171221|20171222|23</item>
+        <item>20180218|20180219|3</item>
+        <item>20180320|20180321|5</item>
+        <item>20190622|20190621|11</item>
+        <item>20200707|20200706|12</item>
+        <item>20200823|20200822|15</item>
+        <item>20201206|20201207|22</item>
+        <item>20220218|20220219|3</item>
+        <item>20230622|20230621|11</item>
+        <item>20231023|20231024|19</item>
+        <item>20231107|20231108|20</item>
+        <item>20240823|20240822|15</item>
+        <item>20260606|20260605|10</item>
+        <item>20300606|20300605|10</item>
+        <item>20350506|20350505|8</item>
+    </string-array>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item name="abs__bright_foreground_holo_dark" type="color">@color/abs__background_holo_light</item>
+    <item name="abs__bright_foreground_holo_light" type="color">@color/abs__background_holo_dark</item>
+    <item name="abs__bright_foreground_inverse_holo_dark" type="color">@color/abs__bright_foreground_holo_light</item>
+    <item name="abs__bright_foreground_inverse_holo_light" type="color">@color/abs__bright_foreground_holo_dark</item>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <color name="account_almost_transparent">#01f5f5f9</color>
+    <color name="account_bg_lavender">#fff5f5f9</color>
+    <item name="account_bg_purple" type="color">@color/account_purple</item>
+    <color name="account_btn_txt_gray">#ff3e3e3e</color>
+    <color name="account_btn_txt_gray_disabled">#ff687080</color>
+    <color name="account_btn_txt_purple">#ffffffff</color>
+    <color name="account_btn_txt_purple_disabled">#99ffffff</color>
+    <item name="account_button_text" type="color">@color/yapps_purple_accent</item>
+    <color name="account_dark_gray">#ff4e4c57</color>
+    <color name="account_darker_gray">#ff39373f</color>
+    <color name="account_edit_hint">#ff7e7d80</color>
+    <item name="account_forgot_password" type="color">@color/yapps_purple_accent</item>
+    <item name="account_forgot_password_hightlight" type="color">@color/yapps_purple_accent</item>
+    <color name="account_header_text">#ff19191a</color>
+    <color name="account_legal">#ff19191a</color>
+    <color name="account_legal_hightlight">#ff0074b3</color>
+    <item name="account_loginScreen_background" type="color">@*android:color/white</item>
+    <color name="account_purple">#ff6e329d</color>
+    <color name="account_service_item_divider">#ff555555</color>
+    <color name="account_settings_items_text">#ff19191a</color>
+    <color name="account_signin_bg">#ff493747</color>
+    <color name="account_signin_error_lavender">#fff45611</color>
+    <color name="account_signin_error_purple">#ffff8b2d</color>
+    <color name="account_signin_txt_hint">#ff91949d</color>
+    <color name="account_signin_txt_input">#ff3e3e3e</color>
+    <color name="account_signin_txt_label">#ff5f5f5f</color>
+    <color name="account_signin_version_txt_color">#ff2a0827</color>
+    <color name="account_signup_actionbar_backButton_pressed">#666230b4</color>
+    <item name="account_splash_bg" type="color">@color/account_loginScreen_background</item>
+    <color name="account_splash_mask">#88ffffff</color>
+    <color name="account_splash_version_txt_color">#ff2a0827</color>
+    <color name="account_sso_action_bar_background">#b0ffffff</color>
+    <color name="account_sso_add_account_button_background_default">#ff6e329d</color>
+    <color name="account_sso_add_account_button_background_pressed">#ff602d88</color>
+    <color name="account_sso_add_account_button_text">#ffffffff</color>
+    <color name="account_sso_signout_button_background_default">#ffed4133</color>
+    <color name="account_sso_signout_button_background_pressed">#ffd93e31</color>
+    <color name="account_sso_signout_button_text">#ffffffff</color>
+    <color name="account_sso_text">#ff3f3f3f</color>
+    <color name="account_sso_user_card_active_background">#ffffffff</color>
+    <color name="account_sso_user_card_background">#ffffffff</color>
+    <color name="account_subtitle">#ff7e7d80</color>
+    <color name="alert_translucent_background">#cc000000</color>
+    <color name="alert_translucent_red">#b3800606</color>
+    <color name="almost_fully_transparent_background">#01000000</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#770000ff</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <item name="common_signin_btn_dark_text_default" type="color">@*android:color/white</item>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <item name="common_signin_btn_dark_text_focused" type="color">@*android:color/white</item>
+    <item name="common_signin_btn_dark_text_pressed" type="color">@*android:color/white</item>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <item name="common_signin_btn_light_text_pressed" type="color">@*android:color/white</item>
+    <color name="customview_toolbar_1">#ff000000</color>
+    <color name="customview_toolbar_10">#ffc80d0d</color>
+    <color name="customview_toolbar_2">#ff003ddd</color>
+    <color name="customview_toolbar_3">#ff7c4912</color>
+    <color name="customview_toolbar_4">#ff008b0d</color>
+    <color name="customview_toolbar_5">#ff454545</color>
+    <color name="customview_toolbar_6">#ff00c0dd</color>
+    <color name="customview_toolbar_7">#fff2740d</color>
+    <color name="customview_toolbar_8">#ffef1dc0</color>
+    <color name="customview_toolbar_9">#ff7c00e9</color>
+    <color name="daily_blue">#ff182c39</color>
+    <color name="daily_white">#ffffffff</color>
+    <color name="daily_white_medium_opacity">#77ffffff</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="flickr_attribution">#ffdcdcdc</color>
+    <color name="forecast_bg_endcolor">#3f416173</color>
+    <color name="forecast_bg_startcolor">#00416173</color>
+    <color name="forecast_gray">#88ffffff</color>
+    <color name="gray">#ff96989c</color>
+    <color name="gray_background">#ff272627</color>
+    <color name="green">#7700ff00</color>
+    <color name="label_txt_blue">#ff9bd1ff</color>
+    <color name="login_background_dark">#ff151715</color>
+    <color name="login_footer_dark">#ff060609</color>
+    <color name="map_placeholder_gray">#ff808080</color>
+    <color name="nav_text_purple">#ffa78fa6</color>
+    <color name="popup_background_gray">#ffdddddd</color>
+    <color name="red">#77ff0000</color>
+    <color name="screen_background_black">#ff000000</color>
+    <color name="search_highlight">#ff789aa7</color>
+    <color name="search_white">#ffffffff</color>
+    <color name="search_yellow">#fffff581</color>
+    <color name="semi_trans_background">#af000000</color>
+    <color name="sidebar_accessory_background_dark">#00000000</color>
+    <color name="sidebar_accessory_background_light">#00000000</color>
+    <color name="sidebar_accessory_text_color_dark">#ff848484</color>
+    <color name="sidebar_accessory_text_color_light">#ff4c4c4d</color>
+    <color name="sidebar_badge_text_color_dark">#ff848484</color>
+    <color name="sidebar_badge_text_color_light">#ff4c4c4d</color>
+    <color name="sidebar_footer_background_dark">#ff1d1d1d</color>
+    <color name="sidebar_footer_background_light">#fff2f2f5</color>
+    <item name="sidebar_footer_text_color_dark" type="color">@color/sidebar_text_dark</item>
+    <color name="sidebar_footer_text_color_light">#ffabaeb7</color>
+    <color name="sidebar_header_accessory_background_dark">#ff3b3a3b</color>
+    <color name="sidebar_header_accessory_background_light">#ffd5d5da</color>
+    <color name="sidebar_header_accessory_background_pressed_dark">#ff1b1b1b</color>
+    <color name="sidebar_header_accessory_background_pressed_light">#ffc0c0c5</color>
+    <color name="sidebar_header_background_dark">#ff121213</color>
+    <color name="sidebar_header_background_light">#fff2f0f6</color>
+    <color name="sidebar_header_text_color_dark">#ff848484</color>
+    <color name="sidebar_header_text_color_light">#ff4c4c4d</color>
+    <color name="sidebar_identity_background_dark">#ff121212</color>
+    <color name="sidebar_identity_background_light">#fff9f9fc</color>
+    <color name="sidebar_identity_subtitle_text_color_dark">#ffadadad</color>
+    <color name="sidebar_identity_subtitle_text_color_light">#ff565657</color>
+    <color name="sidebar_identity_text_color_dark">#ffdedede</color>
+    <item name="sidebar_identity_text_color_light" type="color">@color/sidebar_text_light</item>
+    <color name="sidebar_item_background_activated_dark">#ff4c365d</color>
+    <color name="sidebar_item_background_activated_light">#ffeae0f2</color>
+    <color name="sidebar_item_background_dark">#ff272627</color>
+    <color name="sidebar_item_background_light">#ffffffff</color>
+    <color name="sidebar_item_expanded_background_activated_dark">#ff433151</color>
+    <color name="sidebar_item_expanded_background_activated_light">#ffe7dcf0</color>
+    <color name="sidebar_item_expanded_background_dark">#ff1f1e1f</color>
+    <color name="sidebar_item_expanded_background_light">#fff6f5fb</color>
+    <color name="sidebar_item_separator_dark">#ff212021</color>
+    <color name="sidebar_item_separator_light">#ffe3e1e7</color>
+    <item name="sidebar_item_text_color_dark" type="color">@color/sidebar_text_dark</item>
+    <item name="sidebar_item_text_color_light" type="color">@color/sidebar_text_light</item>
+    <item name="sidebar_subnav_item_background_activated_dark" type="color">@color/sidebar_item_background_activated_dark</item>
+    <item name="sidebar_subnav_item_background_activated_light" type="color">@color/sidebar_item_background_activated_light</item>
+    <color name="sidebar_subnav_item_background_dark">#ff272627</color>
+    <color name="sidebar_subnav_item_background_light">#ffffffff</color>
+    <color name="sidebar_text_dark">#ffffffff</color>
+    <color name="sidebar_text_light">#ff000000</color>
+    <color name="signin_bg">#ff493747</color>
+    <color name="solid_blue">#ff0000ff</color>
+    <color name="solid_green">#ff00ff00</color>
+    <color name="solid_orange">#ffff8040</color>
+    <color name="solid_red">#ffff0000</color>
+    <color name="solid_white">#ffffffff</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="splash_bg">#ff60205a</color>
+    <color name="splash_text_shadow">#66000000</color>
+    <color name="splash_version_txt_color">#ff2a0827</color>
+    <color name="text_shadow">#88000000</color>
+    <color name="tip_view_text_color">#000</color>
+    <color name="toolbar_black">#ff000000</color>
+    <color name="toolbar_blue">#ff003ddd</color>
+    <color name="toolbar_brown">#ff7c4912</color>
+    <color name="toolbar_green">#ff008b0d</color>
+    <color name="toolbar_grey">#ff454545</color>
+    <color name="toolbar_light_blue">#ff00c0dd</color>
+    <color name="toolbar_orange">#fff2740d</color>
+    <color name="toolbar_pink">#ffef1dc0</color>
+    <color name="toolbar_purple">#ff7c00e9</color>
+    <color name="toolbar_red">#ffc80d0d</color>
+    <color name="translucent_background">#e0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_background">#00000000</color>
+    <color name="util_bg_color">#ff272627</color>
+    <color name="util_cursor_color">#ffeeeeee</color>
+    <color name="util_explain_text_color">#ffa2a1a1</color>
+    <color name="util_fb_friends_color">#ffc6c6c6</color>
+    <color name="util_header_color">#ff181818</color>
+    <color name="util_list_separator_color">#ff212021</color>
+    <color name="util_login_panel_color">#ff363536</color>
+    <color name="util_row_highlight_color">#ff373637</color>
+    <color name="util_subheader_color">#ff1f1e1f</color>
+    <color name="util_subheader_text_color">#ff848484</color>
+    <color name="util_toggle_off_color">#ff727272</color>
+    <color name="util_toggle_on_color">#ff3b8fd9</color>
+    <color name="util_toggle_stroke_color">#ff5a5a5a</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="widget_configure_divider">#ff808080</color>
+    <color name="widget_setting_black">#ff181818</color>
+    <color name="widget_setting_divider_black">#ff212121</color>
+    <color name="widget_setting_grey">#ff272627</color>
+    <color name="widget_setting_sub_black">#ff1f1e1f</color>
+    <color name="widget_small_default_color">#5019304e</color>
+    <color name="yapps_purple_accent">#ff6e329d</color>
+    <color name="yellow">#77ffff00</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="WeatherTypefacedTextView"><attr format="string" name="typeface"/></declare-styleable>
+    <dimen name="H1_phone">22.0sp</dimen>
+    <dimen name="H2_phone">16.0sp</dimen>
+    <dimen name="H3_phone">12.0sp</dimen>
+    <dimen name="SidebarLayout_DefaultBezelWidth">40.0dip</dimen>
+    <dimen name="SidebarLayout_DefaultMenuItemHeight">44.0dip</dimen>
+    <dimen name="SidebarLayout_DefaultMenuWidth">280.0dip</dimen>
+    <dimen name="SliderLayout_defaultMenuWidth">280.0dip</dimen>
+    <dimen name="abs__action_bar_default_height">48.0dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">8.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">5.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">14.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="abs__action_bar_title_text_size">18.0dip</dimen>
+    <dimen name="abs__action_button_min_width">56.0dip</dimen>
+    <dimen name="abs__alert_dialog_title_height">64.0dip</dimen>
+    <dimen name="abs__config_prefDialogWidth">320.0dip</dimen>
+    <item name="abs__dialog_min_width_major" type="dimen">65.0%</item>
+    <item name="abs__dialog_min_width_minor" type="dimen">95.00001%</item>
+    <dimen name="abs__dropdownitem_icon_width">32.0dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_left">8.0dip</dimen>
+    <dimen name="abs__dropdownitem_text_padding_right">8.0dip</dimen>
+    <dimen name="abs__search_view_preferred_width">320.0dip</dimen>
+    <dimen name="abs__search_view_text_min_width">160.0dip</dimen>
+    <dimen name="account_loginScreen_arLinkBottomPadding">6.0dip</dimen>
+    <dimen name="account_loginScreen_arLinkTopPadding">16.0dip</dimen>
+    <dimen name="account_loginScreen_bottomPadding">23.0dip</dimen>
+    <dimen name="account_loginScreen_buttonBottomPadding">6.0dip</dimen>
+    <dimen name="account_loginScreen_buttonTextSize">22.0sp</dimen>
+    <dimen name="account_loginScreen_buttonTopPadding">6.0dip</dimen>
+    <dimen name="account_loginScreen_clearIconPadding">6.0dip</dimen>
+    <dimen name="account_loginScreen_contentMaxWidth">304.0dip</dimen>
+    <dimen name="account_loginScreen_editTextPadding">6.0dip</dimen>
+    <dimen name="account_loginScreen_editTextSize">17.0sp</dimen>
+    <dimen name="account_loginScreen_errBottomPadding">12.0dip</dimen>
+    <dimen name="account_loginScreen_imagePadding">18.0dip</dimen>
+    <dimen name="account_loginScreen_itemsLeftMargin">8.0dip</dimen>
+    <dimen name="account_loginScreen_itemsRightMargin">8.0dip</dimen>
+    <dimen name="account_loginScreen_lableLargeTextSize">18.0sp</dimen>
+    <dimen name="account_loginScreen_lableMediumTextSize">16.0sp</dimen>
+    <dimen name="account_loginScreen_lableSmallTextSize">14.0sp</dimen>
+    <dimen name="account_loginScreen_leftPadding">20.0dip</dimen>
+    <dimen name="account_loginScreen_loginEditTextPadding">6.0dip</dimen>
+    <dimen name="account_loginScreen_rightPadding">20.0dip</dimen>
+    <dimen name="account_loginScreen_topPadding">30.0dip</dimen>
+    <dimen name="account_loginScreen_tosTopPadding">24.0dip</dimen>
+    <dimen name="account_logo_bottomMargin">20.0dip</dimen>
+    <dimen name="account_slcScreen_buttonTextSize">18.0sp</dimen>
+    <dimen name="account_sso_checkbox_induced_offset">28.0dip</dimen>
+    <dimen name="account_sso_checkbox_tap_area_expansion">12.0dip</dimen>
+    <dimen name="account_sso_checkbox_user_card_spacing">10.0dip</dimen>
+    <dimen name="account_sso_checkbox_width">18.0dip</dimen>
+    <dimen name="account_sso_element_spacing">10.0dip</dimen>
+    <dimen name="account_sso_item_min_height">70.0dip</dimen>
+    <dimen name="account_sso_left_margin">13.0dip</dimen>
+    <dimen name="account_sso_margin">41.0dip</dimen>
+    <dimen name="account_sso_picture_size">70.0dip</dimen>
+    <dimen name="account_util_minus_one_px">-1.0px</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="background_image_vertical_extra">100.0dip</dimen>
+    <dimen name="barometerTickSpacing">9.0dip</dimen>
+    <dimen name="big_pole_x">38.0dip</dimen>
+    <dimen name="current_condition_copyright_phone_textsize">12.0sp</dimen>
+    <dimen name="current_condition_height">180.0dip</dimen>
+    <dimen name="current_condition_icon_margin_bottom">2.0dip</dimen>
+    <dimen name="current_condition_icon_right_margin">4.0dip</dimen>
+    <dimen name="current_condition_icon_size">36.0dip</dimen>
+    <dimen name="current_temperature_phone_textsize">150.0sp</dimen>
+    <dimen name="customviews_color_picker_btn_padding">10.0dip</dimen>
+    <dimen name="customviews_color_picker_btn_size">50.0dip</dimen>
+    <dimen name="daily_forecast_item_height">40.0dip</dimen>
+    <dimen name="daily_icon_size">32.0dip</dimen>
+    <dimen name="day_spacing">16.0dip</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <dimen name="degree_icon_size">26.0dip</dimen>
+    <dimen name="details_card_height">411.0dip</dimen>
+    <dimen name="details_icon_size">92.0dip</dimen>
+    <item name="drag_list_divider_height" type="dimen">@dimen/margin_sm</item>
+    <dimen name="flickr_icon_padding_bottom">0.0dip</dimen>
+    <dimen name="high_low_text_margin_bottom">-5.0dip</dimen>
+    <dimen name="hourly_forecast_item_height">24.0dip</dimen>
+    <dimen name="hourly_icon_size">29.0dip</dimen>
+    <dimen name="map_control_margin">30.0dip</dimen>
+    <dimen name="map_country_text_padding">6.0dip</dimen>
+    <dimen name="map_image_height">192.0dip</dimen>
+    <dimen name="moon_icon_size">20.0dip</dimen>
+    <dimen name="negative_sunview_margin">-4.0dip</dimen>
+    <dimen name="pole_bottom_y">98.0dip</dimen>
+    <dimen name="precipitation_card_height">192.0dip</dimen>
+    <dimen name="precipitation_item_height">110.0dip</dimen>
+    <dimen name="precipitation_item_width">112.0dip</dimen>
+    <dimen name="pressure_line_y">73.0dip</dimen>
+    <dimen name="pressure_text_y">4.0dip</dimen>
+    <dimen name="ptr_center_offset">34.0dip</dimen>
+    <dimen name="ptr_font_updated">12.0dip</dimen>
+    <dimen name="ptr_header_footer_left_right_padding">24.0dip</dimen>
+    <dimen name="ptr_header_footer_top_bottom_padding">12.0dip</dimen>
+    <dimen name="ptr_height">64.0dip</dimen>
+    <dimen name="ptr_indicator_corner_radius">12.0dip</dimen>
+    <dimen name="ptr_indicator_internal_padding">4.0dip</dimen>
+    <dimen name="ptr_indicator_right_padding">10.0dip</dimen>
+    <dimen name="ptr_margin_sun_left">58.0dip</dimen>
+    <dimen name="ptr_margin_sun_right">24.0dip</dimen>
+    <dimen name="ptr_margin_yahoo_top">16.0dip</dimen>
+    <dimen name="ptr_padding">160.0dip</dimen>
+    <dimen name="pull_to_refresh_paddingBottom">10.0dip</dimen>
+    <dimen name="pull_to_refresh_paddingTop">10.0dip</dimen>
+    <dimen name="pull_to_refresh_progress_height">72.0dip</dimen>
+    <dimen name="pull_to_refresh_progress_marginLeft">30.0dip</dimen>
+    <dimen name="pull_to_refresh_progress_marginRight">20.0dip</dimen>
+    <dimen name="pull_to_refresh_progress_width">72.0dip</dimen>
+    <dimen name="small_pole_x">78.0dip</dimen>
+    <dimen name="splash_screen_margin">170.0dip</dimen>
+    <dimen name="splash_screen_weather_text_size">24.0sp</dimen>
+    <dimen name="sun_arc_leftOffset">20.0dip</dimen>
+    <dimen name="sun_arc_topOffset">35.0dip</dimen>
+    <dimen name="sun_arc_width">140.0dip</dimen>
+    <dimen name="sun_ball_radius">4.0dip</dimen>
+    <dimen name="sun_view_height">115.0dip</dimen>
+    <dimen name="sunmoon_card_height">240.0dip</dimen>
+    <dimen name="sunview_margin">4.0dip</dimen>
+    <dimen name="temp_high_icon_padding_bottom">0.0dip</dimen>
+    <dimen name="temp_icon_padding">14.0dip</dimen>
+    <dimen name="temp_icon_size">30.0dip</dimen>
+    <dimen name="time_text_size">14.0sp</dimen>
+    <dimen name="tip_view_text_size">24dp</dimen>
+    <dimen name="topbar_icon_size">22.0dip</dimen>
+    <dimen name="util_delete_size">20.0dip</dimen>
+    <dimen name="util_fb_toggle_size">17.0dip</dimen>
+    <dimen name="util_fb_toggle_touch_size">48.0dip</dimen>
+    <dimen name="util_font_lg">17.0sp</dimen>
+    <dimen name="util_font_med">12.0sp</dimen>
+    <dimen name="util_font_sm">10.0sp</dimen>
+    <dimen name="util_font_sm_heading">11.0sp</dimen>
+    <dimen name="util_font_xs">8.0sp</dimen>
+    <dimen name="util_list_separator_height">2.0dip</dimen>
+    <dimen name="util_login_panel_height">108.0dip</dimen>
+    <dimen name="util_margin_editloc_city">52.0dip</dimen>
+    <dimen name="util_margin_explain_raise">-3.0dip</dimen>
+    <dimen name="util_margin_lg">24.0dip</dimen>
+    <dimen name="util_margin_list_separator">8.0dip</dimen>
+    <dimen name="util_margin_med">13.0dip</dimen>
+    <dimen name="util_margin_panel">12.0dip</dimen>
+    <dimen name="util_margin_panel_small">10.0dip</dimen>
+    <dimen name="util_margin_social_label">8.0dip</dimen>
+    <dimen name="util_margin_yahoo_left">34.0dip</dimen>
+    <dimen name="util_row_height_lg">44.0dip</dimen>
+    <dimen name="util_row_height_med">41.0dip</dimen>
+    <dimen name="util_row_height_sm">30.0dip</dimen>
+    <dimen name="util_search_size">16.0dip</dimen>
+    <dimen name="util_social_size">21.0dip</dimen>
+    <dimen name="util_toggle_corner_radius">2.0dip</dimen>
+    <dimen name="util_toggle_height">27.0dip</dimen>
+    <dimen name="util_toggle_stroke_width">1.0px</dimen>
+    <dimen name="util_toggle_width">54.0dip</dimen>
+    <dimen name="uv_listPreferredItemHeightSmall">64.0dip</dimen>
+    <dimen name="weather_alert_icon_TouchPaddingBottom">10.0dip</dimen>
+    <dimen name="weather_alert_icon_TouchPaddingLeft">10.0dip</dimen>
+    <dimen name="weather_alert_icon_TouchPaddingRight">80.0dip</dimen>
+    <dimen name="weather_alert_icon_TouchPaddingTop">10.0dip</dimen>
+    <dimen name="weather_alert_landscape_expanded_top_margin">75.0dip</dimen>
+    <dimen name="weather_alert_landscape_top_margin">75.0dip</dimen>
+    <dimen name="weather_alert_portrait_expanded_top_margin">15.0dip</dimen>
+    <dimen name="weather_alert_portrait_top_margin">60.0dip</dimen>
+    <dimen name="weather_alert_type_layout_landscape_height">45.0dip</dimen>
+    <dimen name="weather_alert_type_layout_portrait_height">55.0dip</dimen>
+    <dimen name="weather_extended_forecast_view_layout_height">160.0dip</dimen>
+    <dimen name="weather_extended_weather_info">160.0dip</dimen>
+    <dimen name="weather_high_temperature_textsize">14.0sp</dimen>
+    <dimen name="weather_last_update_time_stamp_marginright">0.0dip</dimen>
+    <dimen name="weather_last_update_time_stamp_textsize">12.0sp</dimen>
+    <dimen name="weather_local_time">12.0sp</dimen>
+    <dimen name="weather_low_temperature_textsize">14.0sp</dimen>
+    <dimen name="weather_page_margin">4.0dip</dimen>
+    <dimen name="weather_signin_edit_location_marginleft">40.0sp</dimen>
+    <dimen name="weather_signin_edit_location_marginright">40.0sp</dimen>
+    <dimen name="weather_signin_explain_textview_textsize">22.0sp</dimen>
+    <dimen name="weather_signin_show_share_button_textsize">22.0sp</dimen>
+    <dimen name="weather_temperature_desc">16.0sp</dimen>
+    <dimen name="weather_temperature_textsize">40.0sp</dimen>
+    <dimen name="weather_topbar_padding">48.0dip</dimen>
+    <dimen name="weather_weather_icon_layout_height">60.0dip</dimen>
+    <dimen name="weather_weather_info_flippertext_textsize">24.0sp</dimen>
+    <dimen name="weather_weather_info_marginleft">10.0dip</dimen>
+    <dimen name="weather_weather_info_marginright">10.0dip</dimen>
+    <dimen name="weather_weather_info_paddingbottom">2.0dip</dimen>
+    <dimen name="weather_weather_info_paddingleft">8.0dip</dimen>
+    <dimen name="weather_weather_info_paddingright">7.0dip</dimen>
+    <dimen name="weather_weather_info_paddingtop">2.0dip</dimen>
+    <dimen name="widget_alert_icon_right_margin">2.5dip</dimen>
+    <dimen name="widget_alert_view_height">20.0dip</dimen>
+    <dimen name="widget_arrow_min_max_bottom_padding">8.0dip</dimen>
+    <dimen name="widget_button_margin_bottom">15.0dip</dimen>
+    <dimen name="widget_checkbox_size">18.0dip</dimen>
+    <dimen name="widget_hourly_container_margin">15.0dip</dimen>
+    <dimen name="widget_hourly_icon_margin">15.0dip</dimen>
+    <dimen name="widget_hourly_icon_margin_left">17.0dip</dimen>
+    <dimen name="widget_hourly_icon_size">29.0dip</dimen>
+    <dimen name="widget_margin">2.5dip</dimen>
+    <dimen name="widget_marginTopBottom">5.0dip</dimen>
+    <dimen name="widget_padding">10.0dip</dimen>
+    <dimen name="widget_paddingTopBottom">7.0dip</dimen>
+    <dimen name="widget_padding_hourly_bottom">9.0dip</dimen>
+    <dimen name="widget_padding_hourly_top">7.0dip</dimen>
+    <dimen name="widget_refresh_icon_size">13.5dip</dimen>
+    <dimen name="widget_setting_fading_edge_length">10.0dip</dimen>
+    <dimen name="widget_setting_item_height">48.5dip</dimen>
+    <dimen name="widget_setting_item_height_no_border">48.0dip</dimen>
+    <dimen name="widget_setting_left_right_padding">15.0dip</dimen>
+    <dimen name="widget_setting_title_height">43.0dip</dimen>
+    <dimen name="widget_small_padding">5.0dip</dimen>
+    <dimen name="wind_text_x">6.0dip</dimen>
+    <dimen name="wind_text_y">29.0dip</dimen>
+    <dimen name="wind_view_height">110.0dip</dimen>
+    <dimen name="wunder_logo_item_height">45.0dip</dimen>
+    <item name="btn_background" type="drawable">#ff7fcaff</item>
+    <item name="btn_background_on" type="drawable">#ffd9e5f0</item>
+    <item name="click_select_background" type="drawable">#ff0271ab</item>
+    <item name="click_unselect_background" type="drawable">#00000000</item>
+    <item name="home_setting_background" type="drawable">#48ffffff</item>
+    <item name="list_background_normal" type="drawable">#ffd9e5f0</item>
+    <item name="list_background_press" type="drawable">#ffcfdae3</item>
+    <item name="main_info_background_normal" type="drawable">#ffd9e5f0</item>
+    <item name="main_setting_background" type="drawable">#ff323538</item>
+    <item name="netdisk_actionbar_btn_select_background" type="drawable">#ff0271ab</item>
+    <item name="problem_background_normal" type="drawable">#ffffffff</item>
+    <item name="problem_background_pressed" type="drawable">#ff2ab9ff</item>
+    <item name="review_content_bg_color" type="drawable">#ffe1ecf3</item>
+    <item name="screen_background_black" type="drawable">#ff000000</item>
+    <item name="setting_item_selected" type="drawable">#33000000</item>
+    <item name="sidemenu_category" type="drawable">#90000000</item>
+    <item name="sidemenu_item_normal" type="drawable">#30000000</item>
+    <item name="translucent_background" type="drawable">#ce000000</item>
+    <item name="transparent" type="drawable">#00000000</item>
+    <item name="transparent_background" type="drawable">#00000000</item>
+    <item name="widget_translucent_background" type="drawable">#be01101c</item>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="dragged_item_fade_out_duration">150</integer>
+    <string name="Communist_day">建党节</string>
+    <string name="action_settings">Settings</string>
+    <string name="all_rights_reserved">Copyright © 2012-2015 way. All Rights Reserved.</string>
+    <string name="animals0">鼠</string>
+    <string name="animals1">牛</string>
+    <string name="animals10">狗</string>
+    <string name="animals11">猪</string>
+    <string name="animals2">虎</string>
+    <string name="animals3">兔</string>
+    <string name="animals4">龙</string>
+    <string name="animals5">蛇</string>
+    <string name="animals6">马</string>
+    <string name="animals7">羊</string>
+    <string name="animals8">猴</string>
+    <string name="animals9">鸡</string>
+    <string name="app_name">weatherdemo</string>
+    <string name="arbor_day">植树节</string>
+    <string name="army_day">建军节</string>
+    <string name="bing">丙</string>
+    <string name="cancle_auto_get_location">您取消了自动定位！</string>
+    <string name="chen">辰</string>
+    <string name="children_day">儿童节</string>
+    <string name="chineseNumber1">一</string>
+    <string name="chineseNumber10">十</string>
+    <string name="chineseNumber11">十一</string>
+    <string name="chineseNumber12">十二</string>
+    <string name="chineseNumber2">二</string>
+    <string name="chineseNumber3">三</string>
+    <string name="chineseNumber4">四</string>
+    <string name="chineseNumber5">五</string>
+    <string name="chineseNumber6">六</string>
+    <string name="chineseNumber7">七</string>
+    <string name="chineseNumber8">八</string>
+    <string name="chineseNumber9">九</string>
+    <string name="chineseTen0">初</string>
+    <string name="chineseTen1">十</string>
+    <string name="chineseTen2">廿</string>
+    <string name="chineseTen3">三</string>
+    <string name="chineseTen4">二</string>
+    <string name="chongyang">重阳节</string>
+    <string name="chou">丑</string>
+    <string name="christmas_day">圣诞节</string>
+    <string name="chunjie">春节</string>
+    <string name="chuxi">除夕</string>
+    <string name="city_exists">您已经选择过该城市哦！</string>
+    <string name="city_max_toast">最多只能添加9个城市哦！</string>
+    <string name="comm_error_noneNetwork">没有网络连接</string>
+    <string name="comm_error_resultIllegal">数据解析出错</string>
+    <string name="comm_error_timeout">网络不给力</string>
+    <string name="date_format">M月d日 HH:mm</string>
+    <string name="day">天前</string>
+    <string name="day_ri">日</string>
+    <string name="ding">丁</string>
+    <string name="duanwu">端午节</string>
+    <string name="enter_city_name">请输入城市名称、拼音、区号或邮编</string>
+    <string name="geng">庚</string>
+    <string name="get_location_scuess">定位到您在：%s</string>
+    <string name="get_weatherifo_fail">获取天气失败了哦！</string>
+    <string name="get_weatherinfo_scuessed">刷新成功</string>
+    <string name="getlocation_fail">获取位置信息失败！</string>
+    <string name="gui">癸</string>
+    <string name="hai">亥</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hour">小时前</string>
+    <string name="ji">己</string>
+    <string name="jia">甲</string>
+    <string name="justnow">刚刚</string>
+    <string name="laba">腊八</string>
+    <string name="labol_day">劳动节</string>
+    <string name="leap_month">闰</string>
+    <string name="mao">卯</string>
+    <string name="min">分钟前</string>
+    <string name="month">月</string>
+    <string name="month_before">月前</string>
+    <string name="national_day">国庆节</string>
+    <string name="net_error">您的网络不给力哦！</string>
+    <string name="new_Year_day">元旦</string>
+    <string name="nian">年</string>
+    <string name="no_this_city">暂时没有该城市的数据！请手动选择！</string>
+    <string name="nongli">农历</string>
+    <string name="please_wait">请稍后...</string>
+    <string name="press_again_exit">再按一次退出</string>
+    <string name="pull_to_refresh_pull_sub_label">上次刷新:%s</string>
+    <string name="pull_to_refresh_pull_sub_label_none">从未</string>
+    <string name="qixi">七夕</string>
+    <string name="ren">壬</string>
+    <string name="sec">秒前</string>
+    <string name="share_fail">分享失败！</string>
+    <string name="share_to">您想分享到？</string>
+    <string name="shen">申</string>
+    <string name="si">巳</string>
+    <string name="speak_launch_project_weather">Launch Project Weather web site</string>
+    <string name="teacher_day">教师节</string>
+    <string name="terms0">小寒</string>
+    <string name="terms1">大寒</string>
+    <string name="terms10">芒种</string>
+    <string name="terms11">夏至</string>
+    <string name="terms12">小暑</string>
+    <string name="terms13">大暑</string>
+    <string name="terms14">立秋</string>
+    <string name="terms15">处暑</string>
+    <string name="terms16">白露</string>
+    <string name="terms17">秋分</string>
+    <string name="terms18">寒露</string>
+    <string name="terms19">霜降</string>
+    <string name="terms2">立春</string>
+    <string name="terms20">立冬</string>
+    <string name="terms21">小雪</string>
+    <string name="terms22">大雪</string>
+    <string name="terms23">冬至</string>
+    <string name="terms3">雨水</string>
+    <string name="terms4">惊蛰</string>
+    <string name="terms5">春分</string>
+    <string name="terms6">清明/清明节</string>
+    <string name="terms7">谷雨</string>
+    <string name="terms8">立夏</string>
+    <string name="terms9">小满</string>
+    <string name="the_day_before_yesterday">前天</string>
+    <string name="tip_text">你可以试着问天气相关\n如:上海的天气\n今天的天气\n一周的天气\n空气质量\n穿衣指数</string>
+    <string name="today">今天</string>
+    <string name="tomb_day">清明节</string>
+    <string name="valentin_day">情人节</string>
+    <string name="wei">未</string>
+    <string name="widget_loading_tips">正在加载,请稍侯...</string>
+    <string name="women_day">妇女节</string>
+    <string name="wudi">午</string>
+    <string name="wutian">戊</string>
+    <string name="xiaonian">小年</string>
+    <string name="xin">辛</string>
+    <string name="xu">戌</string>
+    <string name="year">年</string>
+    <string name="year_before">年前</string>
+    <string name="year_format">yyyy年 M月d日 HH:mm</string>
+    <string name="yesterday">昨天</string>
+    <string name="yi">乙</string>
+    <string name="yin">寅</string>
+    <string name="you">酉</string>
+    <string name="youth_day">青年节</string>
+    <string name="yuanxiao">元宵节</string>
+    <string name="zheng">正</string>
+    <string name="zhongqiu">中秋节</string>
+    <string name="zhou">周</string>
+    <string name="zi">子</string>
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen"/>
+    <style name="ForecastHourly">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Label">
+    <item name="android:textSize">@dimen/text_lg</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:singleLine">true</item>
+</style>
+    <style name="Label.Medium" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_md</item>
+    </style>
+    <style name="Label.Shadow" parent="@style/Label">
+        <item name="android:shadowColor">#88000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="Label.Shadow.ExtraLarge" parent="@style/Label.Shadow">
+        <item name="android:textSize">@dimen/text_xl</item>
+    </style>
+    <style name="Label.Shadow.Medium" parent="@style/Label.Shadow">
+        <item name="android:textSize">@dimen/text_md</item>
+    </style>
+    <style name="Label.Shadow.Small" parent="@style/Label.Shadow">
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+    <style name="Line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="Line.Dotted" parent="@style/Line">
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:src">@drawable/dotted_line_624</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="Line.Solid" parent="@style/Line">
+        <item name="android:layout_marginTop">@dimen/margin_xs</item>
+        <item name="android:layout_marginBottom">@dimen/margin_xs</item>
+        <item name="android:src">@color/forecast_gray</item>
+    </style>
+    <style name="MenuDrawer"/>
+    <style name="MenuDrawer.Widget"/>
+    <style name="MenuDrawer.Widget.Category">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sidebar_header_text_color_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <!-- <item name="android:paddingLeft">16dp</item> -->
+        <item name="android:background">@color/sidebar_header_background_dark</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="MenuDrawer.Widget.Title">
+        <item name="android:background">@drawable/sidebar_item_background_dark_selector</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">@color/sidebar_text_dark</item>
+        <item name="android:textSize">17sp</item>
+        <!--
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        -->
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">8.5dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">8.5dip</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Shade">
+        <item name="android:shadowColor">#ff434343</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="WeatherModule">
+        <item name="android:background">@drawable/module_bg</item>
+        <item name="android:padding">@dimen/padding_sm</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="YahooText" parent="@android:style/TextAppearance"/>
+    <style name="YahooText.Widget" parent="@style/YahooText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:shadowColor">#be000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+    <style name="YahooText.Widget.ErrorText" parent="@style/YahooText.Widget">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="YahooText.Widget42" parent="@style/YahooText.Widget">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="YahooText.Widget42.BigTime" parent="@style/YahooText.Widget42">
+        <item name="android:textSize">80.0dip</item>
+    </style>
+    <style name="YahooText.Widget42.DigitalClock" parent="@style/YahooText.Widget42">
+        <item name="android:textSize">13.0dip</item>
+    </style>
+    <style name="YahooText.Widget42.FlickrAuthor" parent="@style/YahooText.Widget42">
+        <item name="android:textSize">6.0dip</item>
+        <item name="android:textColor">#ffdcdcdc</item>
+    </style>
+    <style name="YahooText.Widget42.Large" parent="@style/YahooText.Widget42">
+        <item name="android:textSize">50.0dip</item>
+    </style>
+    <style name="YahooText.Widget42.Location" parent="@style/YahooText.Widget42">
+        <item name="android:textSize">19.0dip</item>
+    </style>
+    <style name="YahooText.WidgetAlert" parent="@style/YahooText.Widget">
+        <item name="android:textSize">12.0dip</item>
+        <!-- <item name="android:fontFamily">sans-serif</item> -->
+    </style>
+    <style name="bottom_anim_style">
+        <item name="android:windowEnterAnimation">@anim/in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/out_from_bottom</item>
+    </style>
+    <style name="load_dialog" parent="@android:style/Theme.DeviceDefault.Dialog">
+
+        <!-- 设置完全透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置无边框 -->
+        <!-- <item name="android:windowFrame">@null</item> -->
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置为浮动窗口 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 设置动画 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!-- 设置屏幕变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="top_anim_style">
+        <item name="android:windowEnterAnimation">@anim/in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/out_from_top</item>
+    </style>
+    <style name="weather_widget_refresh_style" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/refresh_icon_anim</item>
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">48dip</item>
+    </style>
+</resources>

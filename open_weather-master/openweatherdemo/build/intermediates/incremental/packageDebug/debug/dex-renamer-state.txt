@@ -1,0 +1,4 @@
+#Mon Apr 09 18:27:22 GMT+08:00 2018
+base.0=C\:\\Users\\Administrator\\Desktop\\Old_People_Project\\Build_Project_library\\open_weather-master\\openweatherdemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\Administrator\\Desktop\\Old_People_Project\\Build_Project_library\\open_weather-master\\openweatherdemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
